@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEB PAGE</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="head-section">
+      <nav class="navbar navbar-expand-lg py-4">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#">KALLAPPA KHANAPURKAR<br>U15BL22S0157</br></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item ms-0 ms-md-3">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item ms-0 ms-md-3">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item ms-0 ms-md-3">
+                <a class="nav-link" href="#">About </a>
+              </li>
+
+              <li class="nav-item ms-0 ms-md-3">
+                <a class="px-4 py-2 btn btn-primary" href="#">Contact </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <header class="hero-section">
+        <div class="container">
+          <div class="row align-items-center py-4 g-5">
+            <div class="col-12 col-md-6">
+              <div class="text-center text-md-start">
+                <h3 class="display-md-2 display-4 fw-bold text-dark pb-2">
+                  <span class="text-primary">OPEN SOURCE TOOL </span> WEB PAGE ASSIGNMENT
+                </h3>
+                <p class="lead">
+                  Explain about virtual reality and headphone product
+                </p>
+                <button
+                  class="btn btn-primary px-5 py-3 mt-3 fs-5 fw-medium"
+                  type="button"
+                >
+                  Shop Now
+                </button>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <img
+                src="vr4.jpeg"
+                class="img-fluid"
+                alt="a man using vr gadget"
+              />
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <div class="container">
+      <div class="row align-items-center gx-3 gy-5 py-5 mt-5">
+        <div class="col-12 col-md-12 col-lg-5">
+          <img
+            src="vr3.webp"
+            class="img-fluid mx-auto d-block"
+            alt="a man using vr gadget"
+          />
+        </div>
+        <div class="col-12 col-md-12 text-center text-lg-start col-lg-7">
+          <h2 class="fw-bold text-primary fs-1 pb-3">About virtual reality</h2>
+          <p class="about-text">
+            Virtual reality is a simulated experience that employs 3D near-eye 
+            displays and pose tracking to give the user an immersive feel of a 
+            virtual world.It It can be used for education,healthcare,business,
+            training,therapy and military.
+          </p>
+          
+          <button
+            class="btn btn-primary px-5 py-3 mt-3 fs-5 fw-medium"
+            type="button"
+          >
+            Read More About Now
+          </button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container my-5">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-12">
+          <h2 class="fs-1 fw-bold text-primary text-center pb-5">
+            Our Products
+          </h2>
+          <ul
+            class="nav nav-tabs d-flex flx-wrap justify-content-center"
+            id="myTab"
+            role="tablist"
+          >
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active me-md-3 me-1 text-dark"
+                id="home-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#home-tab-pane"
+                type="button"
+                role="tab"
+                aria-controls="home-tab-pane"
+                aria-selected="true"
+              >
+                All
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link me-md-3 me-1 text-dark"
+                id="vr"
+                data-bs-toggle="tab"
+                data-bs-target="#vr-tab-pane"
+                type="button"
+                role="tab"
+                aria-controls="profile-tab-pane"
+                aria-selected="false"
+              >
+                Virtual Reality
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link me-md-3 me-1 text-dark"
+                id="headphones-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#headphones-tab-pane"
+                type="button"
+                role="tab"
+                aria-controls="contact-tab-pane"
+                aria-selected="false"
+              >
+                Headphones
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div
+              class="tab-pane fade show active"
+              id="home-tab-pane"
+              role="tabpanel"
+              aria-labelledby="home-tab"
+              tabindex="0"
+            >
+              <div class="row g-4 mt-5 justify-content-center align-items-center">
+                <div class="col-12 col-md-4">
+                  <img
+                    src="assets/headphones-1.webp"
+                    alt=""
+                    class="img-fluid  d-block mx-auto"
+                  />
+                </div>
+                <div class="col-12 col-md-4">
+                  <img src="assets/vr-1.webp" alt="" class="img-fluid  d-block mx-auto" />
+                </div>
+                <div class="col-12 col-md-4">
+                  <img src="assets/vr-2.webp" alt="" class="img-fluid  d-block mx-auto" />
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="vr-tab-pane"
+              role="tabpanel"
+              aria-labelledby="profile-tab"
+              tabindex="0"
+            >
+              <div class="row mt-5 g-4">
+                <div class="col-12 col-md-4">
+                  <img src="assets/vr-1.webp" alt="" class="img-fluid" />
+                </div>
+                <div class="col-12 col-md-4">
+                  <img src="assets/vr-2.webp" alt="" class="img-fluid" />
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="headphones-tab-pane"
+              role="tabpanel"
+              aria-labelledby="headphones-tab"
+              tabindex="0"
+            >
+              <div class="row g-4 mt-5">
+                <div class="col-12 col-md-4">
+                  <img
+                    src="assets/headphones-1.webp"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-5 mb-5">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="fw-bold text-primary fs-1 pb-3 text-center">
+            How it works
+          </h2>
+
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button fs-3 text-dark fw-medium"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  What is Headphone?
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p class="lead">
+                    Headphone are audio device that allow you to listen to audio privately 
+                    by wearing them over or in your ears.They are electroacoustic 
+                    transducers,which convert an electrical signal into sound.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button fs-3 text-dark fw-medium"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Types of Headphones
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p class="lead">
+                    They are two types of headphones that are wired and wireless headphone:-
+                    1.Wired headphone:These headphone are connected with the device through
+                    the line.There is no need to charge it.It also has a mac.The brand of 
+                    wired headphones are boat,hp,sony,phillips,bose etc.
+                    2.Wireless headphone:They are connected to the device through bluetooth.
+                    They are tittle bit heavyweight.It needs charging for working,A charging
+                    slot is available for charging.popular brand is like boat,infinity etc.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed fs-3 text-dark fw-medium"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  what is virtual reality
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p class="lead">
+                    Virtual reality is a simulates three dimensional(3D) environment that lets
+                    users explore and interact with a virtual surrounding in away that 
+                    approximate reality,as its perceived through the users sense.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button fs-3 text-dark fw-medium"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  What are the main types of virtual reality?
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p class="lead">
+                    1.The virtual reality industry still has far to go befor realizing
+                    its vision of a totally immersive environment that lets users engage
+                    multiple sensations in a way that approximates reality.
+                    2.However,Virtual reality technology has come a long way in providing
+                    realistic sensory engagement and shows promie for business use in
+                    several industries.
+                  </p>
+                </div>
+              </div>
+            </div>
+    <footer class="footer-section">
+      <p class="text-center py-5 mb-0">
+        &copy; 
+      </p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

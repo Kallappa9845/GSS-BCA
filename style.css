@@ -1,0 +1,43 @@
+*{
+  font-family: montserrat;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+
+
+body{
+  line-height: 1.7;
+  background: f1fbff;
+}
+
+.mypg{
+
+margin: 100px 0;
+
+}
+.bigfont{
+  
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.body, html {
+    height: 100%;
+    margin: 10;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center; /* Aligns items horizontally in the center */
+    align-items: center;    /* Aligns items vertically in the center (optional) */
+    height: 30vh;          /* Full viewport height */
+    flex-wrap: wrap;        /* Allows the cards to wrap onto multiple lines if necessary */
+}
+
+.card {
+    margin: 10px; /* Adds space between the cards */
+}
